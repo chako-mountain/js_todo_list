@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>タイトルをここに</title>
+</head>
+
+<body>
+    <header>
+        <h1>ToDoリスト</h1>
+    </header>
+
+    <main>
+        <form id="todo-form">
+            <input name="contents" id="contents" />
+            <input type="button" value="Check" id="checkButton">
+        </form>
+
+        <p>タスクの総数</p>
+        <p id="taskCount"></p>
+        <p>完了済み</p>
+        <p id="checked_tasks"></p>
+        <p>未完了</p>
+        <p id="not_checked_tasks"></p>
+    </main>
+
+    <script src="todo.js" defer></script>
+
+</body>
+
+</html>
